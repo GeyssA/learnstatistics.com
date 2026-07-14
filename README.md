@@ -1,5 +1,9 @@
 # LearnStatistics.com
 
+**Site en ligne : [https://geyssa.github.io/learnstatistics.com/](https://geyssa.github.io/learnstatistics.com/)**
+
+> Ne confondez pas cette page (code sur GitHub) avec le site publié ci-dessus.
+
 Site interactif de biostatistique Helha : formulaire, chapitres, TP, examen.
 
 ## Lancer en local
