@@ -1,0 +1,25 @@
+# Dépendances et build
+web/node_modules/
+web/dist/
+web/dist-ssr/
+web/.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.local
+
+# Sources cours (PDF/JPG volumineux — données déjà intégrées dans web/src)
+*.pdf
+*.jpg
+*.jpeg
+*.png
+
+# Cursor
+.cursor/
