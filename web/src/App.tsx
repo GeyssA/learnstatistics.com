@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { Layout } from './components/Layout'
 import { AccessGate } from './components/AccessGate'
 import { HomePage } from './pages/HomePage'
@@ -7,7 +7,7 @@ import { ExamenPage } from './pages/ExamenPage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AccessGate>
         <Routes>
           <Route element={<Layout />}>
@@ -17,6 +17,6 @@ export default function App() {
           </Route>
         </Routes>
       </AccessGate>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
